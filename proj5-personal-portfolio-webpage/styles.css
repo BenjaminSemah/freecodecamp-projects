@@ -4,19 +4,18 @@
   --light-green: #abd1c6;
   --dark-text: #001e1d;
   --light-text: #fefefe;
-
 }
 
 body {
   font-family: lato, sans-serif;
   background: var(--dark-green);
-  color: var(dark-text);
+  color: var(--dark-text);
   margin: 0;
   padding: 0;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none
 }
 
 #navbar {
@@ -24,9 +23,9 @@ a {
   display: flex;
   justify-content: space-evenly;
   position: fixed;
-  width: 100%;
   top: 0;
   padding: 20px;
+  width: 100%;
 }
 
 #navbar a {
@@ -58,7 +57,8 @@ h1 {
 
 #projects {
   background: var(--light-green);
-  color: var(--dark-text)
+  color: var(--dark-text);
+  padding: 150px 0;
 }
 
 #projects h2 {
@@ -71,12 +71,8 @@ hr {
   width: 40%;
   margin: 10px auto;
   color: var(--dark-text);
-  border: 1px solid var(--dark-green);
   margin-bottom: 60px;
-}
-
-#projects {
-  padding: 150px 0;
+  border: 1px solid var(--dark-green);
 }
 
 .project-container {
@@ -111,12 +107,8 @@ hr {
   width: 120px;
   margin: 50px auto 0 auto;
   padding: 15px;
-  text-align: center;
   background-color: var(--yellow);
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 #contact {
@@ -139,7 +131,7 @@ hr {
 }
 
 .contact-container {
-  margin-top: 40px;
+  margin: 40px;
 }
 
 .contact-container a {
@@ -184,7 +176,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .contact-container a {
     margin-bottom: 25px;
   }
