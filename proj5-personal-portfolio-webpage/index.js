@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.=" />
     <meta name="description" content="Personal Portfolio Webpage" />
     <title>Personal Portfolio</title>
-    <link rel="styesheet" href="./styles.css" >
+    <link rel="stylesheet" href="./styles.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   </head>
-
   <body>
     <!-- HEADER -->
     <header>
@@ -29,52 +28,66 @@
     <section id="projects">
       <h2>These are some of my projects</h2>
       <hr>
+
       <div class="project-container">
         <div class="project-tile">
-          <a class="project-link" href="www.google.com" target="_blank">
-            <img class="project-image" src="https://i.postimg.cc/fyfC3wrn/Project1.png">
+          <a class="project-link" href="www.freecodecamp.org" target="_blank">
+            <img 
+              class="project-image" 
+              src="https://i.postimg.cc/fyfC3wrn/Project1.png"
+            >
             <div class="project-name">Survey Form</div>
           </a>
         </div>
 
         <div class="project-tile">
-          <a class="project-link" href="www.google.com" target="_blank">
-            <img class="project-image" src="https://i.postimg.cc/C1BPPTr9/Screenshot-2023-08-17-at-11-35-41-AM.png">
+          <a class="project-link" href="www.freecodecamp.org" target="_blank">
+            <img 
+              class="project-image" 
+              src="https://i.postimg.cc/C1BPPTr9/Screenshot-2023-08-17-at-11-35-41-AM.png"
+            >
             <div class="project-name">Tribute Page</div>
           </a>
         </div>
 
         <div class="project-tile">
-          <a class="project-link" href="www.google.com" target="_blank">
-            <img class="project-image" src="https://i.postimg.cc/15RcC1dX/Project2.png">
-            <div class="project-name">Technical Doc</div>
+          <a class="project-link" href="www.freecodecamp.org" target="_blank">
+            <img 
+              class="project-image" 
+              src="https://i.postimg.cc/15RcC1dX/Project2.png"
+            >
+            <div class="project-name">Product Page</div>
           </a>
         </div>
 
         <div class="project-tile">
-          <a class="project-link" href="www.google.com" target="_blank">
-            <img class="project-image" src="https://i.postimg.cc/sxzddght/Project4.png">
+          <a class="project-link" href="www.freecodecamp.org" target="_blank">
+            <img 
+              class="project-image" 
+              src="https://i.postimg.cc/sxzddght/Project4.png"
+            >
             <div class="project-name">Product Page</div>
           </a>
         </div>
+
+        <a id="show-all-link" href="www.freecodecamp.org">SHOW ALL</a>
       </div>
-      <a id="show-all-link" href="www.google.com">SHOW ALL</a>
     </section>
 
     <!-- CONTACT SECTION -->
     <section id="contact">
       <h2>Let's work together...</h2>
-      <p>Do you prefer tea or coffee? Comment below.</p>
+      <p>Do you prefer tea or coffee? Comment below</p>
       <div class="contact-container">
-        <a id="youtube-link" href="www.google.com" target="_blank">
+        <a id="youtube-link" href="www.freecodecamp.org" target="_blank">
           <i class="fa-brands fa-youtube"></i>
           YouTube
         </a>
-        <a id="github-link" href="www.google.com" target="_blank">
+        <a id="github-link" href="www.freecodecamp.org" target="_blank">
           <i class="fa-brands fa-github"></i>
           GitHub
         </a>
-        <a id="profile-link" href="www.google.com" target="_blank">
+        <a id="profile-link" href="www.freecodecamp.org" target="_blank">
           <i class="fa-solid fa-link"></i>
           FreeCodeCamp
         </a>
